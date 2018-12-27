@@ -1,0 +1,13 @@
+﻿server:
+  port: 7080
+spring:
+  application:
+    name: zuul
+feign:
+  hystrix:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
