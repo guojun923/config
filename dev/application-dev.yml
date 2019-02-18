@@ -3,3 +3,9 @@ management:
     web:
       exposure:
         include: '*'
+spring:
+  redis:
+    database: 0
+    host: 10.1.94.61
+    port: 6379
+    timeout: 1000
