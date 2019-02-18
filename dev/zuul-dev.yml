@@ -1,1 +1,27 @@
-
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 3000
+spring:
+  redis:
+    database: 0
+    host: 10.1.94.61
+    port: 6379
+    timeout: 1000
+zuul:
+  add-host-header: true
+  forceOriginalQueryStringEncoding: true
+  retryable: true
+  sensitive-headers:
+  servlet-path: /
