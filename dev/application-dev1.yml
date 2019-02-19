@@ -1,5 +1,5 @@
 zuul:
-  servlet-path: /aacc
+  servlet-path: /
 eureka:
   instance:
     prefer-ip-address: true
