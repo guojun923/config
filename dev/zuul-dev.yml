@@ -14,5 +14,5 @@ zuul:
   retryable: true
   sensitive-headers:
   servlet-path: /
-  ignored-patterns: /info,/loggers,/metrics,/health,/mappings,/beans,/dump,/heapdump,/env,/configprops,/trace,/loadBalancer,/bizConfig,/instance-status
+  ignored-patterns: /actuator/*,/info,/loggers,/metrics,/health,/mappings,/beans,/dump,/heapdump,/env,/configprops,/trace,/loadBalancer,/bizConfig,/instance-status
   
