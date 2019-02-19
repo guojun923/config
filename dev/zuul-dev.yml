@@ -13,7 +13,7 @@ zuul:
   forceOriginalQueryStringEncoding: true
   retryable: true
   sensitive-headers:
-  servlet-path: /
+  servlet-path: /zuul
 
 management:
   endpoints:
