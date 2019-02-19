@@ -14,9 +14,3 @@ zuul:
   retryable: true
   sensitive-headers:
   servlet-path: /
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
