@@ -9,3 +9,11 @@ spring:
     host: 10.1.94.61
     port: 6379
     timeout: 1000
+  data:
+     mongodb:
+       uri: mongodb://10.1.94.61:27017/attendance
+  datasource:
+     url: jdbc:mysql://10.1.94.61:3306/${db.name}
+     username: root
+     password: mysql
+     driver-class-name: com.mysql.jdbc.Driver
