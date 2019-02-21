@@ -22,3 +22,13 @@ spring:
      username: root
      password: '{cipher}AQBxcfeF5hSc0mVlzyBedYrdoCHJBFVKR1KmDxw52u8NAN16zy/JxZuJgkkppsqw+3UwkfImJJHeZYDvrAbITsevpgo1pOmm6hZmjHUUd+dAgAzuGR9v7WErTmKDXfVuP+n9m5XEgCIALXbEVK7UzEUMRcwOGkd92Nbj5Bj2lUj+EmRHvyjJI5GceVyJebAo2PMY4RInrgVqH1RegLTYvNrlrECZY6B867ETW+xC2hKACo4sYI7oSbFFHRWP22Stfqs0LukZ95MxKCiuCm5L+3WW38OkSXUxE+rgxDZGOZxgdmzgRRKYhBLaLLtPLvBRl7WuQsSwjZXy/swjyTW2DGGIlyvB9Oa1P4DHb025PzyOhNTFodxmsp2LetRgEFvrUsQ='
      driver-class-name: com.mysql.jdbc.Driver
+
+producer-rocker-mq-config:
+  mq: rocketMq
+  nameSrvAddress: 192.168.133.239:9876
+  producerGroup: glm
+
+consumer-rocker-mq-config:
+  mq: rocketMq
+  nameSrvAddress: 192.168.133.239:9876
+  producerGroup: glm
