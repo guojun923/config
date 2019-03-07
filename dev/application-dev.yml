@@ -17,6 +17,7 @@ spring:
   data:
      mongodb:
        uri: mongodb://10.1.94.61:27017/attendance
+       field-naming-strategy: org.springframework.data.mapping.model.SnakeCaseFieldNamingStrategy
   datasource:
      url: jdbc:mysql://10.1.94.61:3306/${db.name}
      username: root
