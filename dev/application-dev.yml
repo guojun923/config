@@ -8,6 +8,11 @@ feign:
   hystrix:
     enabled: true
     
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    
 hystrix:
   command:
     default:
