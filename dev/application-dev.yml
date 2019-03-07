@@ -8,6 +8,20 @@ feign:
   hystrix:
     enabled: true
     
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 3000
+  MaxAutoRetries: 1
+  MaxAutoRetriesNextServer: 1
+  OkToRetryOnAllOperations: false
+    
 spring:
   redis:
     database: 0
