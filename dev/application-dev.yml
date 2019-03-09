@@ -23,7 +23,7 @@ hystrix:
 ribbon:
   ConnectTimeout: 2000
   ReadTimeout: 2000
-  MaxAutoRetries: 1
+  MaxAutoRetries: 2
   MaxAutoRetriesNextServer: 1
   OkToRetryOnAllOperations: false
     
