@@ -3,6 +3,6 @@ zuul:
   forceOriginalQueryStringEncoding: true
   retryable: true
   sensitive-headers:
-  servlet-path: /services/*
+  servlet-path: /zuul
   ignored-patterns: /actuator/**,/info,/loggers,/metrics/**,/health,/mappings,/beans,/dump,/heapdump,/env,/configprops,/trace,/loadBalancer,/bizConfig,/instance-status
   
